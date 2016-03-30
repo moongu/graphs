@@ -1,0 +1,39 @@
+CS230 Final Project: Ana Balcells, Ye Eun Jeong, Lucie Randall
+Labor division
+See comments in individual .java files for a method-by-method credit of authorship.
+
+Ana:
+* GraphPlusPlus class
+- wrote constructors, clone(), dfsTraversal(), isConnected()
+- debugged graph algorithms
+* MainPanel class
+- wrote helper method and ButtonListener subclass
+* InputPanel class
+- wrote constructor: created interactive components needed to make a graph from scratch or upload a .tgf file
+- wrote and tested listeners for: radio buttons toggling different input methods; text fields, buttons, combo boxes, and file upload button for inputting vertices and edges; made "calculate" buttons that alternate in visibility depending on what graph option was clicked in the main panel
+* OutputPanel class
+- made and designed components that display results of a circuit/path test
+- wrote helper methods to update labels in the output panel in order to display different content depending on what buttons were clikced in the Main- and Input panels.
+* GraphPlusPlusGUI class
+- designed the overall aesthetics of the interface
+* drafted initial technical report
+
+Ye Eun:
+* GraphPlusPlus class
+- wrote and tested vertexDegree(), isAllEvenDegrees(), isEulerian(), hasTwoOddDegrees(), hasEulerPath(), traverseEdges, traverseEdgesEP, traverseVertices, traverseVerticesHP, getEulerCircuit(), getEulerPath(), getHamiltonCircuit(),  getHamiltonPath(). 
+* GraphPlusPlusGUI class
+- wrote overall structure to tie in different classes together
+- wrote switchPanel() method to switch between panels with click of buttons
+* MainPanel class
+- wrote constructor
+* InputPanel class
+- co-authored constructor and RadioListener subclass
+- tested border cases and debugged code for listeners
+* OutputPanel class
+- wrote helper methods to update labels in the output panel to calculate and display results of circuit/path search
+* drafted initial and final user's manual with design mockups and screen shots of demo
+
+Lucie:
+* GraphPlusPlusGUI class
+- debugged GUI features
+* drafted final Technical report
